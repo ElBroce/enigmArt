@@ -1,5 +1,3 @@
-function hello () {
-    console.log('hello');
+export function hello () {
+    alert("Hello!");
 }
-
-module.exports = { hello };
